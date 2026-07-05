@@ -43,15 +43,16 @@ Note: if you use some other event, edit race time to match race duration.
   + `Shifting: Automatic`
   + `Traction Control` and `Stability Control` could be set to `Off` to earn more CR
 + Script uses the first listed favourite R998 car in your possession. A car with CR boost like _Wuling Sunshine FE_ is recommended. Mark it as favourite.
++ If you use another car, it is recommended to change line with `Loop 111`, e.g. if you car makes 5:10 lap time, the value is `(5 * 60 + 10) seconds / 10 seconds * 3 laps = 93`, therefore you change that line to `Loop 93` and mine CR faster
 + Start while you are driving in the freeroam (any location)
 + Move your mouse cursor to a corner of the screen (so it does not interfere with UI buttons)
 + Press F4
-+ AHK will automatically choose `Rivals > Colossus > R998`, drive 3 loops and then restart race - which earns ~450000 CR per hour + some SP
++ AHK will automatically choose `Rivals > Colossus > R998`, drive 3 loops and then restart race - which earns ~450k CR per hour + some SP
 + Procedure is looping indefinetely
 
 **F5 Spend Skill Points on Super Wheel Spin**
 + Start while you are driving in the freeroam (any location)
-+ Though generally Super Wheel Spin gives CR too, you need some spare cash to buy Impreza - make sure you have 500k at least
++ Though generally Super Wheel Spin gives CR too, you need some spare cash to buy Imprezas - make sure you have 500k at least
 + Move your mouse cursor to a corner of the screen (so it does not interfere with UI buttons)
 + Press F5
 + AHK will automatically buy _Subaru Impreza 22B_ and open _Super Wheel Spin_ perk
@@ -63,7 +64,7 @@ Note: if you use some other event, edit race time to match race duration.
 + You must drive the car that is <ins>not</ins> a duplicate
 + Press F6
 + AHK will automatically send your duplicated car as a gift to anyone
-+ Process repeats 50 times
++ Process repeats `duplicatedCars` times
 
 **F7 Photoshoot all your cars** to earn Horizon (H) points
 + Start while you are driving in the freeroam (any location)
@@ -77,10 +78,10 @@ Note: if you use some other event, edit race time to match race duration.
 
 ## Debugging
 
-This script was tested on a mid-range PC (Intel Core i7, DDR4, RTX 4070). If you have an older PC with longer loading times, you might experience instability.
+This script was tested on a mid-range PC (Intel Core i7, DDR4, RTX 4070), 50 FPS. If you have an older PC with longer loading times, you might experience instability.
 
 If script behaves erratically, try the following:
-+ Increase `KeySleep` variable value - it controls the baseline delay between actions.\
++ Increase `KeySleep` variable value - it controls the baseline delay between actions.
 + Uncomment the `ToolTip` commands in the code to display real-time status updates on your screen.
 
 
