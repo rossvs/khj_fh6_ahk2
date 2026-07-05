@@ -29,7 +29,7 @@ Once AutoHotkey is installed, launch the script by double-clicking the file.
 + Choose Solo
 + Use _Subaru Impreza 22B_ with previously  opened 9x multiplier
 + (For some other events, you may need to enable _Auto-Steering_ in Difficulty settings)
-+ When the screen with _Start Race Event_ button is loaded, Move your mouse cursor to a corner of the screen (so it does not interfere with UI buttons)
++ When the screen with _Start Race Event_ button is loaded, move your mouse cursor to a corner of the screen (so it does not interfere with UI buttons)
 + Press F3
 + AHK will play and restart the race 100 times, which earns 999 SP in ~1.5 hours
 
@@ -51,12 +51,14 @@ Note: if you use some other event, edit race time to match race duration.
 
 **F5 Spend Skill Points on Super Wheel Spin**
 + Start while you are driving in the freeroam (any location)
++ Though generally Super Wheel Spin gives CR too, you need some spare cash to buy Impreza - make sure you have 500k at least
 + Move your mouse cursor to a corner of the screen (so it does not interfere with UI buttons)
 + Press F5
 + AHK will automatically buy _Subaru Impreza 22B_ and open _Super Wheel Spin_ perk
 + Process repeats 33 times to spend 990 SP
 
-**F6 Send all duplicated cars as a gift**
+**F6 Send duplicated cars as a gift**
++ Set `duplicatedCars` variable to the amount you want send
 + Start while you are driving near any barn: when `[Enter] Send gift` shows up
 + You must drive the car that is <ins>not</ins> a duplicate
 + Press F6
